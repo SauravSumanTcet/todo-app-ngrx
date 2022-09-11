@@ -1,0 +1,2 @@
+<app-todo *ngFor="let todo of todoArr | async" [todo]="todo" (todoAction)="todoAction($event)"></app-todo>
+
